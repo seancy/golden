@@ -1,6 +1,6 @@
 # project1
 
-> A Vue.js project
+> A Vue.js project for interview at Moshan
 
 ## Build Setup
 
