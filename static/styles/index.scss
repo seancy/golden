@@ -1,5 +1,11 @@
 
+/* 
+font-weight: 300; 
+	this property needs support from font 
 
+box-shadow: -55px 5px 40px 0 rgba(0, 0, 0, 0.09);   
+	the shadow of product of S7 needs a shadow created by design.
+*/
 
 .body {
 	position:absolute; top:0px; 
@@ -12,11 +18,12 @@
 		height: 900px;
 		background-image: radial-gradient(circle at 49% -6%, #474d73, #000000);
 		.device {
+			z-index:99;
+			position:relative;
 			width: 707px;
 			height: 707px;
 			margin:139.5px 0 0 11.5px; 
-			// transform: rotate(0deg);
-			// box-shadow: -55px 5px 40px 0 rgba(0, 0, 0, 0.09);
+			// transform: rotate(13deg);
 			background-image:url('../images/device.png');
 			background-repeat:no-repeat;
 			background-position-x:17px;
@@ -30,9 +37,6 @@
 				object-fit: contain;
 				font-size: 12px;
 				font-weight: bold;
-				font-style: normal;
-				font-stretch: normal;
-				line-height: normal;
 				letter-spacing: 0.8px;
 				text-align: left;
 				color: #f4811f;
@@ -44,8 +48,6 @@
 				object-fit: contain;
 				font-size: 80px;
 				font-weight: 300;
-				font-style: normal;
-				font-stretch: normal;
 				line-height: 0.94;
 				letter-spacing: normal;
 				text-align: left;
@@ -63,33 +65,84 @@
 		background-image: url('../images/router.png'), radial-gradient(circle at 52% 17%, rgba(254, 250, 225, 0.88), rgba(254, 251, 229, 0.75) 25%, rgba(255, 255, 255, 0));
 		.productIntroduce {
 			position:absolute;
-			left:110px; top:140px;
+			left:50px; top:99px;
 			h3 {
-				margin:99px 0 0 50px;
 				width: 80px;
 				height: 14px;
 				object-fit: contain;
 				font-size: 12px;
 				font-weight: bold;
-				font-style: normal;
-				font-stretch: normal;
-				line-height: normal;
+				
+				
+				
 				letter-spacing: 0.8px;
 				text-align: left;
 				color: #f4811f;
 			}
 			p {
-
+				margin-top:10px;
+				width: 161px;
+				height: 135px;
+				object-fit: contain;
+				font-size: 40px;
+				font-weight: 300;
+				
+				
+				line-height: 1.13;
+				letter-spacing: normal;
+				text-align: left;
+				color: #4a4a4a;
 			}
-
 		}
-
-
 	}
 	>.rightSide {
+		position:relative;
 		width: 324px;
 		height: 643px;
 		background-color: #7cdade;
+		.smartWatch {
+			margin-top:113.4px;
+			width: 325px;
+			height: 529.6px;
+			// object-fit: contain;
+			// transform: rotate(26deg);
+			background-image:url('../images/smart_watch.png');
+			background-repeat:no-repeat;
+			background-position-x:right;
+			background-position-y:bottom;
+		}
+		.productIntroduce {
+			position:absolute;
+			left:50px; top:120px;
+			h3 {
+				width: 96px;
+				height: 14px;
+				object-fit: contain;
+				font-size: 12px;
+				font-weight: bold;
+				
+				
+				
+				letter-spacing: 0.8px;
+				text-align: left;
+				color: #ffffff;
+			}
+			p {
+				margin-top:10px;
+				width: 240px;
+				height: 90px;
+				object-fit: contain;
+				font-size: 40px;
+				font-weight: 300;
+				
+				
+				line-height: 1.13;
+				letter-spacing: normal;
+				text-align: left;
+				color: #ffffff;
+			}
+
+		}
 	}
 	.linksContainer {
 		width: 824px;
@@ -120,90 +173,6 @@
 			:last-child .iconArrowRight { margin-right:0px;  }
 		}
 	}
-	.footer {
-		width: 824px;
-		height: 164px;
-		background-color: #ffffff;
-		input[type=text] {
-			float:left;
-			width: 218px;
-			height: 30px;
-			margin: 33px 0 0 67px; 
-			border-radius:15px; 
-			padding-left:20px;
-			border:1px solid #c9c9c9;
-		}
-		input[type=text]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-			font-size:11px;
-			// padding-left:20px;
-			background-repeat: no-repeat;
-			background-position-x: 200px;
-			display:inline-block; width:5px; height:10px; background-image:url('../images/grayArrow.png');
-		}
-		.linksAndSocialMedia {
-			float:right;
-			margin-right:89px;
-			ul>li {
-				float:left; 
-			}
-			>.links {
-				margin-top:36px; 
-				width: 199px;
-				height: 25px;
-				font-size: 11px;
-				font-weight: bold;
-				
-				
-				line-height: 2.27;
-				
-				text-align: left;
-				color: #4a4a4a;
-				li {
-					margin-right:16px;
-				}
-			}
-			.socialMedia {
-				margin-top:10px; 
-				width: 140px;
-				height: 16px;
-				object-fit: contain;
-				opacity: 0.6;
-				li { margin-right:20px; }
-			}
-		}
-		.dropdown {
-			float:left;
-			width:300px;
-			margin:33px 0 0 76px;
-			>* { float:left; }
-			.flag { margin-right:10px; }
-			>span {
-				width: 65px;
-				height: 13px;
-				margin:1px 10px 0 0; 
-				object-fit: contain;
-				font-family: ProximaNova;
-				font-size: 11px;
-				text-align: left;
-				color: #4a4a4a;
-			}
-			.grayArrow {
-				margin-top:4px;
-			}
-		}
-		.copyright {
-			float:right;
-			width: 220px;
-			height: 28px;
-			margin:23px 103px 0 0;
-			font-size: 9px;
-			line-height: 2.11;
-			text-align: center;
-			color: #9b9b9b;
-		}
-	}
-
-
 }
 
 
