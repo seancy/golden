@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="15px" viewBox="0 0 25 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Country Selector</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design" transform="translate(-1388.000000, -31.000000)">
+            <g id="Header" transform="translate(30.000000, 30.000000)">
+                <g id="Country-Selector" transform="translate(1358.000000, 1.000000)">
+                    <polygon id="Fill-1" fill="#EE4136" points="0 15 25 15 25 12 0 12"></polygon>
+                    <polygon id="Fill-2" fill="#FEFEFE" points="0 12 25 12 25 9 0 9"></polygon>
+                    <polygon id="Fill-3" fill="#EE4136" points="12 9 25 9 25 6 12 6"></polygon>
+                    <polygon id="Fill-4" fill="#FEFEFE" points="12 6 25 6 25 3 12 3"></polygon>
+                    <polygon id="Fill-5" fill="#EE4136" points="12 3 25 3 25 0 12 0"></polygon>
+                    <polygon id="Fill-6" fill="#1952A3" points="0 9 12 9 12 0 0 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
