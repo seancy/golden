@@ -21,6 +21,5 @@ npm run build --report
 ## Using Serve plugin to test the result of build
 
 1 npm install -g serve
-2 serve dist/
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+2 serve dist/
